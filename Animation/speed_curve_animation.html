@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<style>
+			div{
+				width: 100px;
+				height: 50px;
+				background-color: red;
+				font-weight: bold;
+				position: relative;
+				animation: hi 5s infinite;
+				}
+			#one{animation-timing-function: linear;}
+			#two{animation-timing-function: ease;}
+			#three{animation-timing-function: ease-in;}
+			#four{animation-timing-function: ease-out;}
+			#five{animation-timing-function: ease-in-out;}
+
+			@keyframes hi{
+				from {left: 0px;}
+				to{left: 1000px;}
+				}
+		</style>
+	</head>
+<body>
+
+	<div id="one">linear</div>
+	<div id="two">ease</div>
+	<div id="three">ease-in</div>
+	<div id="four">ease-out</div>
+	<div id="five">ease-in-out</div>
+</body>
+
+</html>
+
+	

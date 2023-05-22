@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<style>
+			div{
+				width: 300px;
+				height: 100px;
+				background-color: red;
+				border:3px solid orange;
+				margin: 150px;
+				}
+			div#one{
+				transform: matrix(1,-0.3,0,1,0,0);
+				}
+			div#two{
+				transform: matrix(1,0,0.5,1,150,0);
+				}
+		</style>
+	</head>
+<body>
+	
+	<h1>The matrix() Method</h1>
+
+	<h2><i>The matrix() method combines all the 2D transform methods into one.
+
+The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.
+
+The parameters are as follow: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) </i></h2>
+
+	<div>This is a normal div element.</div>
+
+	<div id="one">Using the matrix()metod</div>
+
+
+	<div id="two">Using the matrix()metod</div>
+</body>
+
+</html>
+	
